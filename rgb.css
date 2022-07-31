@@ -1,0 +1,66 @@
+button {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 6px 12px;
+  color: white;
+  cursor: pointer;
+  margin: 0px 2px;
+}
+#header div {
+  float: left;
+  width: 33%;
+  min-width: 260px;
+  padding: 20px 4px;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(
+    114deg,
+    rgb(252, 45, 228),
+    rgb(120, 16, 230)
+  ) !important;
+  min-height: 75px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+body {
+  margin: 0px;
+  font-family: arial;
+  font-size: 1.4em;
+  background: repeating-linear-gradient(
+      0deg,
+      rgb(250, 250, 250) 0px,
+      rgb(250, 250, 250) 1px,
+      transparent 1px,
+      transparent 21px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgb(250, 250, 250) 0px,
+      rgb(250, 250, 250) 1px,
+      transparent 1px,
+      transparent 21px
+    ),
+    linear-gradient(90deg, hsl(229, 0%, 100%), hsl(229, 0%, 100%));
+}
+#palette{
+    text-align: center;
+}
+#color1, #color2, #color3, #color0 {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 75%);
+    transition: all 0.3s ease;
+}

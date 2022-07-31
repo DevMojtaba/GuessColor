@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="rgb.css" />
+    <title>RGB Colour Game</title>
+  </head>
+  <body>
+    <div id="header">
+      <div>
+        <button onclick="restart()">Restart</button>
+        <button id="mode" onclick="switchMode()">Switch to hexadecimal</button>
+      </div>
+      <div id="color">rgb(255, 61, 21)</div>
+      <div id="score">Score: 0</div>
+    </div>
+    <div id="palette">
+      <div
+        id="color0"
+        onclick="checkColor(0);"
+        style="background-color: rgb(255, 61, 21)"
+      ></div>
+      <div
+        id="color1"
+        onclick="checkColor(1);"
+        style="background-color: rgb(204, 194, 110)"
+      ></div>
+      <br />
+      <div
+        id="color2"
+        onclick="checkColor(2);"
+        style="background-color: rgb(25, 114, 70)"
+      ></div>
+      <div
+        id="color3"
+        onclick="checkColor(3);"
+        style="background-color: rgb(248, 75, 146)"
+      ></div>
+    </div>
+
+
+
+    <script src="rgb.js"></script>
+  </body>
+</html>
